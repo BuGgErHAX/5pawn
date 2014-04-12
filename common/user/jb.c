@@ -31,8 +31,10 @@ void trigger(void) {
 
 
 }
-extern char *shellcode = "";
+extern char *shellcode = ""; // Need to do some other stuff to get the shellcode
 int main()
 {
+    trigger();
+    return 0;
 
 }
