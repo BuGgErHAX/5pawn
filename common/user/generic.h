@@ -7,5 +7,6 @@
 #include <unistd.h>
 #include "sysent.h"
 #include "sys/mman.h"
+#include <assert.h>
 
 #endif // GENERIC_H
